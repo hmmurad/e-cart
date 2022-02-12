@@ -1,0 +1,31 @@
+<div class="container-fluid products-top py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="top-link">
+                    <a href="#">
+                        <img src="" alt="">
+                        <span>ALl</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row my-3 flex space-y-3 items-center">
+        <div class="col-3 "  *ngFor="let p of products">
+            <div class="card">
+                <img style="height: 300px;width: 100%;" src="{{p.image}}" class="card-img-top width: w-full p-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-semibold title">{{p.title}}</h5>
+                  <p class="card-text description">{{p.description}}</p>
+                  <p class="card-text"> Price: $ {{p.price}}</p>
+                  <a class="btn btn-primary cursor-pointer text-center place-content-center" (click)="addToCart(p)">Add To Cart</a>
+                </div>
+              </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.brand {
+    color: rgb(198, 223, 217);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cart-btn {
+    padding: 3px 0px;
+    background: rgb(115, 113, 216);
+    border-radius: 10px;
+}
+.form-control {
+    width: 500px;
+    border-radius: 5px;
+}

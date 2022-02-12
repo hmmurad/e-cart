@@ -1,0 +1,11 @@
+.products-top {
+    background: rgb(247, 245, 160);
+}
+
+
+.title , .description{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100ch;
+    text-overflow: ellipsis;
+}
